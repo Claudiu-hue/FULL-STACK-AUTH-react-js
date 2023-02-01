@@ -1,11 +1,3 @@
-import express from 'express'
-import { login, logout, register } from '../controllers/auth.js'
-
-
-const router = express.Router()
-
-router.post("/register", register )
-router.post("/login",  login)
-router.post("/logout", logout )
-
-export default router
+version https://git-lfs.github.com/spec/v1
+oid sha256:210a8e7f524d6fa8b9898954de1bd16c0c01d4a65ca8266c43e9bc0d09f3d925
+size 260

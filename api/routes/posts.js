@@ -1,13 +1,3 @@
-import express from 'express'
-import { addPost, deletePost, getPost, getPosts, updatePost } from '../controllers/post.js'
-
-
-const router = express.Router()
-
-router.get('/', getPosts )
-router.get('/:id',getPost )
-router.post('/', addPost)
-router.delete('/:id',deletePost )
-router.put('/:id', updatePost )
-
-export default router
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd723236ec835b8d9adb3eea55b6079d7f14b4beda9057282eb5c20fc66666da
+size 338
